@@ -10,7 +10,7 @@
 * License: GPL2
 */
 
-function al_add_post_author_link(){ 
+function pal_add_post_author_link(){ 
 	GLOBAL $pagenow;
 	GLOBAL $post_type;
 	if( $pagenow == 'post.php' && post_type_supports($post_type, 'author') ): ?>
@@ -38,4 +38,4 @@ function al_add_post_author_link(){
 		jQuery(document).ready( authorLink );
 	</script>
 <?php endif; }
-add_action('admin_head', 'al_add_post_author_link');
+add_action('admin_head', 'pal_add_post_author_link');
