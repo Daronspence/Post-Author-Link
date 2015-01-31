@@ -1,31 +1,19 @@
 === Post Author Link ===
 Contributors: daronspence
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=daronspence%40gmail%2ecom&lc=US&item_name=WP%20Plugin%20Donation&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
-Tags: post author, author link, cpt author
+Tags: post author, author link, cpt author, author, admin link, author override
 Requires at least: 3.8
 Tested up to: 4.1
 Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Adds a link to the post author when editing any post type that supports it.
+A small plugin that adds a link to the currently selected author on a post/page/etc author override meta box.
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+Post Author Link is a small plugin that adds a link to the post/page author override meta box. The link points towards the currently selected author's profile. Useful for quickly jumping to an authors profile to update/view user meta infirmation quickly.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
-
-A few notes about the sections above:
-
-*   "Contributors" is a comma separated list of wp.org/wp-plugins.org usernames
-*   "Tags" is a comma separated list of tags that apply to the plugin
-*   "Requires at least" is the lowest version that the plugin will work on
-*   "Tested up to" is the highest version that you've *successfully used to test the plugin*. Note that it might work on
-higher versions... this is just the highest one you've verified.
-*   Stable tag should indicate the Subversion "tag" of the latest stable version, or "trunk," if you use `/trunk/` for
-stable.
 
     Note that the `readme.txt` of the stable tag is the one that is considered the defining one for the plugin, so
 if the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used
@@ -39,7 +27,7 @@ you put the stable version, in order to eliminate any doubt.
 
 == Installation ==
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Upload `ppost-author-link` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Navigate to any post type that supports an author, and you will see the link next to the author dropdown. Note, you may have to show the author meta box if it has been hidden. Click "Screen Options" in the top right hand corner of a page or post and check the box for "Author"
 
@@ -61,9 +49,3 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 = 0.1 =
 * Initial Commit
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
